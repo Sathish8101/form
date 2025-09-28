@@ -1,0 +1,50 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.continer {
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bx1 {
+    width: 750px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: darkgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inbx {
+    padding: 10px;
+    position: relative;
+}
+
+.inbx input {
+    padding: 8px;
+    height: 45px;
+    width: 300px;
+    outline: none;
+    border: solid white;
+    border-right: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.inbx i {
+    height: 45px;
+    right: 0px;
+    display: inline-block;
+    background-color: white;
+    position: absolute;
+    padding: 15px;
+    border-radius: 0px 5px 5px 0px;
+}
